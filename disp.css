@@ -1,0 +1,120 @@
+body {
+    width: 900px;
+    margin: auto;
+    background-color: #000022;
+    font-family: "Alata", sans-serif;
+    
+    scroll-snap-type: y mandatory;
+}
+
+.image {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    scroll-snap-align: center; 
+    display: grid
+}
+
+.textblock {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 255, 255, 0.7);
+    position: relative;
+    top: 100px;
+    left: 200px;
+    border-radius: 20px;
+    
+    font-size: 40px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    
+}
+
+.images {
+    
+}
+
+#t1 {
+    height: 300px;
+    width: 500px;
+    font-size: 60px;    
+}
+
+#t2 {
+    left: 450px;
+    top: 800px;
+}
+
+#t3 {
+    height: 300px;
+    width: 300px;
+    top: 600px;
+    left: 60px;
+}
+
+#t4 {
+    left: 450px;
+    top: 800px;
+}
+
+#t5 {
+    left: 150px;
+}
+
+#t6 {
+    left: 180px;
+    top: 1000px;
+}
+
+#t7 {
+    left: 50px;
+    top: 500px;
+    
+}
+
+#t8 {
+    height: 300px;
+    width: 500px;
+    top: 800px;
+    font-size: 60px;
+    
+}
+
+#i1 {
+    background-image: url(assets/IMG_0581.JPG)
+}
+
+#i2 {
+    background-image: url(assets/IMG_1558.JPG)
+}
+
+#i3 {
+    background-image: url(assets/IMG_0128.JPG)
+}
+
+#i4 {
+    background-image: url(assets/IMG_1994.JPG)
+}
+
+#i5 {
+    background-image: url(assets/IMG_0580.JPG);
+}
+
+#i6 {
+    background-image: url(assets/8436a589-0d9b-4ada-8745-471d9ad791e9.JPG);
+    background-position: top;
+}
+
+#i7 {
+    background-image: url(assets/File_001.png)
+}
+
+#i8 {
+    background-image: url(assets/IMG_2333.JPG)
+}
